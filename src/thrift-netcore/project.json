@@ -1,4 +1,24 @@
 ﻿{
+  "version": "0.9.3.1",
+  "title": "Apache Thrift",
+  "authors": [ "The Apache Software Foundation" ],
+  "copyright": "The Apache Software Foundation",
+
+  "packOptions": {
+    "summary": "For .Net Core - naive port, use with caution...",
+    "tags": [ "Thrift", "Serialization" ],
+    "owners": [ "g.boucher" ],
+    "licenseUrl": "https://github.com/gboucher90/thrift-netcore/blob/master/LICENSE",
+    "projectUrl": "https://github.com/gboucher90/thrift-netcore",
+    "releaseNotes": "Thrift for .Net Core",
+    "requireLicenseAcceptance": false,
+    "repository": {
+      "url": "https://github.com/gboucher90/thrift-netcore.git"
+    },
+    "files": {
+      "include": "thrift-0.9.3.exe"
+    },
+  },
   "configurations": {
     "Debug": {
       "buildOptions": {
